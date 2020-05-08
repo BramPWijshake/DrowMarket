@@ -4,6 +4,66 @@
     "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\DrowMarket\\DrowMarket.csproj": {}
   },
   "projects": {
+    "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Bram\\.nuget\\packages\\",
+        "outputPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj": {
+                "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\DrowMarket\\DrowMarket.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +72,135 @@
         "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\DrowMarket\\DrowMarket.csproj",
         "packagesPath": "C:\\Users\\Bram\\.nuget\\packages\\",
         "outputPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\DrowMarket\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Logic\\Logic.csproj": {
+                "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Logic\\Logic.csproj"
+              },
+              "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj": {
+                "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Logic\\Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Logic\\Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\Bram\\.nuget\\packages\\",
+        "outputPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Data\\Data.csproj": {
+                "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Data\\Data.csproj"
+              },
+              "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj": {
+                "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Bram\\.nuget\\packages\\",
+        "outputPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -52,9 +241,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

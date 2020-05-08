@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Bram\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj": {
+              "projectPath": "G:\\School\\Individueel\\DrowMarket\\DrowMarket\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
